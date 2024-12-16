@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+}
+
+/* LOGO */
+
+.logo_container{
+    margin-left: 4%;
+}
+.myntra_logo img{
+    height: 33px;
+    width: 53px;
+}
+
+/* NAV BAR */
+
+.nav_bar{
+    text-transform: uppercase;
+    min-width: 515px;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    color: #282c3f;
+    font-size: 14px;
+    letter-spacing: .3px;
+    font-weight: 700;
+    padding: 28px 0;
+    border-bottom: 3px solid #fff;
+    
+}
+nav a:hover{
+    border-bottom: 3px solid #f54e77;
+
+}
+nav a sup{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+/* SEARCH BAR */
+
+.search_container{
+    display: flex;
+    width: 320px;
+    width: 30%;
+}
+.search_container input{
+    flex-grow: 1;
+    font-size: 14px;
+    padding: 8px 10px 10px;
+    height: 20px;
+    color: #696e79;
+    background: #f5f5f6;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    
+}
+.search_icon{
+    height: 22px;
+    background: #f5f5f6;
+    padding: 8px 8px;
+    border-radius: 4px 0 0 4px;
+}
+
+/* ACTION BAR */
+
+.action_bar{
+    margin-right: 4%;
+    width: 125px;
+}
+.action_container{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;    
+}
+
+/* MAIN */
+
+.banner_container img{
+    margin: 40px 0;
+    width: 100%;
+    height: auto;
+}
+
+.heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    text-align: center;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.deals{
+    margin-top: 60px;
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.items img{
+    height: 420px;
+}
+.items_1{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -4px;
+}
+.items_1 img{
+    height: 420px;
+}
+
+.category_items{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.category_items img{
+    height: 190px;
+    width: 165px;
+}
+
+.explore_items{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.explore_items img{
+    height: 320px;
+}
+
+.trending_items{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.trending_items img{
+    height: 262px;
+}
+
+.accessories_items{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.accessories_items img{
+    height: 260px;
+}
+
+/* FOOTER */
+
+.footer_container {
+    margin-top: 60px;
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+.footer_column h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.footer_column a {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.useful_links{
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.footer_mobile{
+    font-size: 12px;
+}
+.footer_mobile h3{
+    color: #282c3f;
+    margin-bottom: 25px;
+}
+.footer_mobile img{
+    height: 42px;
+}
+
+.social_heading{
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+hr{
+    border: 1px;
+    height: 1px ;
+    background-color: #eaeaec;
+}
+
+.rights{
+    padding: 30px 60px 40px 60px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rights span{
+    font-size: 15px;
+    color: #696b79;
+}
+.copyright{
+    color: #696b79;
+}
+
+.office_address{
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-around;
+}
+.address_column{
+    display: flex;
+    flex-direction: column;
+}
+.address_column h3{
+    color: #282c3f;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.address_column h5{
+    color: #696b79;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.contact_info{
+    color: #94969f;
+    padding-top: 150px;
+}
+.contact_info h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+
+

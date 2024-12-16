@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+}
+
+/* LOGO */
+
+.logo_container{
+    margin-left: 4%;
+}
+.myntra_logo img{
+    height: 33px;
+    width: 53px;
+}
+
+/* NAV BAR */
+
+.nav_bar{
+    text-transform: uppercase;
+    min-width: 515px;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    color: #282c3f;
+    font-size: 14px;
+    letter-spacing: .3px;
+    font-weight: 700;
+    padding: 28px 0;
+    border-bottom: 3px solid #fff;
+    
+}
+nav a:hover{
+    border-bottom: 3px solid #f54e77;
+
+}
+nav a sup{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+/* SEARCH BAR */
+
+.search_container{
+    display: flex;
+    width: 320px;
+    width: 30%;
+}
+.search_container input{
+    flex-grow: 1;
+    font-size: 14px;
+    padding: 8px 10px 10px;
+    height: 20px;
+    color: #696e79;
+    background: #f5f5f6;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    
+}
+.search_icon{
+    height: 22px;
+    background: #f5f5f6;
+    padding: 8px 8px;
+    border-radius: 4px 0 0 4px;
+}
+
+/* ACTION BAR */
+
+.action_bar{
+    margin-right: 4%;
+    width: 125px;
+}
+.action_container{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;    
+}
+
+/* LOGIN FORM CONTAINER */
+
+.form_container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 227, 227);
+}
+
+.container{
+    height: 600px;
+    width: 480px;
+    background-color: #fff;
+}
+.banner img{
+    height: 180px;
+    width: 100%;
+}
+
+.login_container{
+    padding: 36px 36px 0;
+    color: #424553;
+}
+
+.username {
+    margin-bottom: 25px;
+}
+.login{
+    font-size: 25px;
+    font-weight: 700;
+}
+.or{
+    font-size: 17px;
+    font-weight: 400;
+}
+.signup{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.input{
+    border: 1px solid #d4d5d9;
+    font-size: 14px;
+    padding: 11px 12px;
+}
+.input input{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    color: #282c3f;
+}
+
+.password{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.password span{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.mid_links{
+    margin-top: 25px;
+}
+.mid_links span{
+    font-size: 14px;
+}
+.mid_links a{
+    color: #ff3c6f;
+    font-weight: 700;
+    font-size:15px;
+}
+
+.btn{
+    margin-top: 21px;
+    text-align: center;
+}
+.btn button{
+    border: none;
+    cursor: pointer;
+    background-color: #ff3f6c;
+    padding: 12px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100%;
+}
+
+.trouble{
+    margin: 25px 0;
+}
+.trouble span{
+    font-size: 14px;
+}
+.trouble a{
+    font-size: 15px;
+    color: #ff3c6f;
+    font-weight: 700;
+}
